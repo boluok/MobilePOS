@@ -21,6 +21,7 @@ NOTE: If amount is not passed the user will be given the option to enter their o
 ```
 val intent = Intent("com.thames.pos.CardPayment")
             intent.putExtra("amount","200")
+            intent.putExtra("transactionRef","ewomw02303dd3")
             startActivityForResult( intent,CARD_PAYMENT_RESULT_CODE);
 ```
 
