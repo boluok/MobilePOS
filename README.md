@@ -15,7 +15,7 @@ Download the Thames apk and follow the following steps to setup:
 
 ### Connecting from your own application
 
-To initiate payment with card from your own app at the point of transaction call on Thames with the amount and transactionReference, transactionRef must be 12 digit and alphanumeric
+To initiate payment with card from your own app at the point of transaction call on Thames with the amount and transactionReference, transactionRef must be 12 digit numeric code
 
 NOTE: If amount is not passed the user will be given the option to enter their own amount
 ```
